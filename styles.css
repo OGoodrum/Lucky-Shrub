@@ -1,0 +1,107 @@
+body{
+    background-color: white;
+    font-family:'Courier New', Courier, monospace
+}
+
+header{
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    gap: 25vw;
+    flex-wrap: wrap;
+}
+
+header > img{
+    background-color: white;
+    padding: 10px;
+    height: 20vh;
+    max-height: 200px;
+    border-radius: 10px;
+}
+
+nav ul{
+    padding-left: 0px;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li{
+    background-color: black;
+    border-radius: 25px;
+    margin-right: 0.05vw;
+    margin-left: 0.05vw;
+    margin-top: 0.5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+section > h2{
+    background-color: burlywood;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+section:hover > h2{
+    animation: changeColor 2s infinite;
+}
+
+@keyframes changeColor{
+    0% {color: black;}
+
+    25% {color: red;}
+
+    50% {color: yellow;}
+
+    75% {color: green;}
+
+    100% {color: black;}
+}
+
+.plants{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    gap: 1vw;
+    flex-wrap: wrap;
+}
+
+article{
+    
+    background-color: cadetblue;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    max-width: 400px;
+    
+}
+
+article:hover{
+    box-shadow: 0.5vw 0.5vw ;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    gap: 25vw;
+    flex-wrap: wrap;
+}
+
+footer img{
+    height: 10vh;
+    max-height: 50px;
+    background-color: burlywood;
+    padding: 3px;
+    border-radius: 3px;
+}
+
